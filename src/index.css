@@ -2,6 +2,8 @@
 @import "tailwindcss";
 
 @theme{
-    --color-mygray:#71717A
-    --font-Onest:"Onest", sans-serif;
+    --color-mygray: #71717A;
+    --font-Onest: "Onest", sans-serif;
+    --color-Zine-black: #09090B;
+    --color-Orange: #F26922
 }
