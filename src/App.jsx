@@ -5,7 +5,7 @@ import Logo from './Common/Logo'
 import Ball from './Common/Ball'
 import Account from './Common/Account'
 import DeshText from './Common/DeshText'
-import Button from './Common/Button'
+ import Button from './Common/Button'
 
 
 function App() {
@@ -19,7 +19,10 @@ function App() {
     <Ball/>
     <Account/>
     <DeshText/>
-    <Button>My btn</Button>
+    <Button> MY Name </Button>
+    
+
+   
    
     </main>
       
