@@ -7,3 +7,30 @@
     --color-Zine-black: #09090B;
     --color-Orange: #F26922
 }
+
+@layer utilities{
+     .nav{
+        @apply relative z-10 ;
+    }
+
+    .nav::after{
+        @apply content-[''] bg-[#09090B] h-[3px] w-0 left-0 -bottom-[30px] absolute rounded-xl duration-300 ;
+    }
+
+    .nav:hover::after {
+        @apply w-[100%];
+    }
+
+    
+ @media (max-width:400px) {
+    .small-size{
+        @apply left-[60px]
+    }
+ }
+   
+
+
+
+
+ 
+}

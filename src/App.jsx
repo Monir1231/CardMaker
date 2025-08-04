@@ -1,11 +1,9 @@
 
 import './App.css'
-import Link from './Common/Link'
-import Logo from './Common/Logo'
-import Ball from './Common/Ball'
-import Account from './Common/Account'
-import DeshText from './Common/DeshText'
- import Button from './Common/Button'
+import Header from './Components/Header'
+import Desh from './Components/Desh'
+import Card from './Components/Card'
+import Massage from './Common/Massage'
 
 
 function App() {
@@ -13,17 +11,14 @@ function App() {
 
   return (
     <>
-    <main className='font-Onest text-mygray'>
-    <Logo/>
-    <Link/>
-    <Ball/>
-    <Account/>
-    <DeshText/>
-    <Button> MY Name </Button>
+    <main className='font-Onest text-mygray max-w-[1440px] mx-auto'>
+     <Header/>
+     <Desh/>
+     <Card/>
+     <Massage/>
     
-
-   
-   
+     
+    
     </main>
       
     </>
