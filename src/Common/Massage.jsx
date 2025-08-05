@@ -4,10 +4,10 @@ import Sms from "./Sms";
  import Button from "./Button";
  import CloseIcon from '@mui/icons-material/Close';
 
-function Massage() {
+function Massage({toggleMenu}) {
   return (
-    <div>
-    <div className="w-[331px] pb-3  rounded-md   bg-[#F4F4F5]  z-50">
+    <div className="z-50  flex flex-col items-center justify-end ">
+    <div className=" w-[260px] md:w-[331px] pb-3  rounded-md   bg-[#F4F4F5] -mt-[400px]  md:-mt-[450px] ">
       <div className="py-2.5 bg-Orange rounded-t-md ">
         <h1 className="text-[18px] font-bold text-white px-3">
           Chat with Cypher
@@ -28,7 +28,7 @@ function Massage() {
 
         <div className="text-white flex justify-start ">
            <div className="mt-4">
-             <Sms className="text-mygray bg-[#E4E4E7] ">
+             <Sms className="text-mygray bg-[#f1f1f1] border-[#E4E4E7] ">
               Lorem ipsum dolar sit general sac mascho werho
             </Sms>
            </div>
@@ -36,7 +36,7 @@ function Massage() {
 
         <div className="text-white flex justify-start ">
            <div className="mt-4">
-             <Sms className="text-mygray bg-[#E4E4E7] ">
+             <Sms className="text-mygray bg-[#f1f1f1] border-[#E4E4E7]  ">
               Lorem ipsum dolar sit general sac mascho werho
             </Sms>
            </div>
@@ -65,9 +65,11 @@ function Massage() {
       </div>
      
     </div>
-    <div className=" w-[331px] flex items-center justify-end my-8">
-    <div className="  size-[77px] bg-[#FAFAFA] rounded-full shadow-2xl flex items-center justify-center ">
-     <CloseIcon/>
+    <div className=" w-[260px] md:w-[331px] flex items-center justify-end my-7">
+    <div className=" size-[40px] md:size-[77px] bg-[#FAFAFA] rounded-full shadow-2xl flex items-center justify-center ">
+    <button onClick={toggleMenu}>
+       <CloseIcon/>
+    </button>
     </div>
     </div>
 

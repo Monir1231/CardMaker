@@ -3,7 +3,7 @@ import React from 'react'
 
 function Sms({children,className}) {
   return (
-    <div className={Cn('bg-Zine-black text-[12px] font-bold text-center w-[213px] h-[57px] rounded-md border border-[#F4F4F5] flex  items-center justify-center', className)}>{children}</div>
+    <div className={Cn('bg-Zine-black text-[8px] md:text-[12px] font-bold text-center w-[150px] h-[40px] md:w-[213px] md:h-[57px] rounded-md border border-[#F4F4F5] flex  items-center justify-center', className)}>{children}</div>
   )
 }
 
