@@ -6,6 +6,8 @@ import Card from './Components/Card'
 import Massage from './Common/Massage'
 import Clickbtn from './Components/Clickbtn'
 import MobileMenu from './Common/MobileMenu'
+import Incident from './Page/Incident'
+
 
 
 function App() {
@@ -14,11 +16,14 @@ function App() {
   return (
     <>
     <main className='font-Onest text-mygray max-w-[1440px] mx-auto'>
-     <Header/>
+     {/* <Header/>
      <Desh/>
      <Card/>
-     {/* <Massage/> */}
-     <Clickbtn/>
+     <Massage/>
+     <Clickbtn/> */}
+
+     <Incident/>
+    
      
     
      
