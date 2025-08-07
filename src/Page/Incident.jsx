@@ -4,6 +4,7 @@ import Head from "../Common/Head";
 import Title from "../Common/TItle";
 import Container from "../Common/Container";
 import { incidentItem } from "../data/data";
+import Button  from "../Common/Button";
 
 function Incident() {
   return (
@@ -33,9 +34,16 @@ function Incident() {
                <p className="text-[14px] max-w-[195px] text-[#71717A]">{item.des}</p>
             </div>
           ))}
-          </div>
 
+          
+          </div>
+           
         </div>
+
+        <div className="flex justify-center items-center mx-auto py-10">
+            <Button >Get started</Button>
+           </div>
+        
       </Container>
     </>
   );

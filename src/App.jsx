@@ -7,6 +7,7 @@ import Massage from './Common/Massage'
 import Clickbtn from './Components/Clickbtn'
 import MobileMenu from './Common/MobileMenu'
 import Incident from './Page/Incident'
+import NewIncident from './Page/NewIncident'
 
 
 
@@ -22,7 +23,10 @@ function App() {
      <Massage/>
      <Clickbtn/> */}
 
-     <Incident/>
+     {/* <Incident/> */}
+     <NewIncident/>
+
+
     
      
     
